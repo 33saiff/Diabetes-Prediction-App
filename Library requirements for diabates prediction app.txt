@@ -1,0 +1,24 @@
+Library requirements 
+
+Front end
+import tkinter as tk
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from PIL import Image, ImageTk
+import webbrowser
+import tkinter.font as tkFont
+
+Back end
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from mlxtend.plotting import plot_decision_regions
+import missingno as msno
+from pandas.plotting import scatter_matrix
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import confusion_matrix
+from sklearn import metrics
+from sklearn.metrics import classification_report
+import warnings
